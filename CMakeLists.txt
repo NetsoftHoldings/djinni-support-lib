@@ -56,7 +56,7 @@ add_library(djinni-support-lib::djinni-support-lib ALIAS djinni_support_lib)
 source_group("" FILES ${SRC_SHARED})
 
 set_target_properties(djinni_support_lib PROPERTIES
-  CXX_STANDARD 17
+  CXX_STANDARD 14
   CXX_STANDARD_REQUIRED true
   CXX_EXTENSIONS false
 )
